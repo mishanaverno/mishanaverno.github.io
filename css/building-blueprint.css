@@ -1,0 +1,36 @@
+html, body {
+    height: 100%;
+}
+body {
+    overflow-x: scroll;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+#canvas {
+    width: fit-content;
+    padding: 20px;
+    background-color: #e7f1ff;
+    min-width: 100%;
+    flex-grow: 1;
+}
+
+.row {
+    display: flex;
+}
+
+.cell {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #65a2d7;
+    font-size: 23px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#options {
+    padding: 20px;
+    border-top: 1px solid;
+}

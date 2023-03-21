@@ -4,9 +4,23 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <script src="js/blueprint-instruments.js"></script>
+    <script src="js/building-blueprint.js"></script>
+    <link rel="stylesheet" href="css/building-blueprint.css">
+    <title>building-blueprint generator</title>
 </head>
 <body>
-    hello world!
+    <div id="canvas"></div>
+    <div id="options">
+        <div class="block">
+            <input class="sx" type="number" value="10" step="1">
+            <input class="sy" type="number" value="10" step="1">
+            <button id="generate-canvas" >Generate</button>
+        </div>
+        <div class="block" id="instruments">
+            <div class="category">
+            </div>
+        </div>
+    </div>
 </body>
 </html>
